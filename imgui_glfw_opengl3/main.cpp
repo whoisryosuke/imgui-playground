@@ -25,6 +25,10 @@ static void glfw_error_callback(int error, const char* description)
     fprintf(stderr, "Glfw Error %d: %s\n", error, description);
 }
 
+void TextComponent() {
+    ImGui::Text("A text component");
+}
+
 int main(int, char**)
 {
     // Setup window
@@ -124,7 +128,7 @@ int main(int, char**)
 
             ImGui::Begin("Hello, Ryo!");
 
-            ImGui::Text("This is some useful text.");               // Display some text (you can use a format strings too)
+            TextComponent();
             ImGui::Checkbox("Demo Window", &show_demo_window);      // Edit bools storing our window open/close state
             ImGui::Checkbox("Another Window", &show_another_window);
 
