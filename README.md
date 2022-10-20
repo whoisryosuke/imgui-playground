@@ -27,3 +27,12 @@ imgui requires it’s own headers (e.g. `imgui.h`), as well as a headers and a l
 14. Try building and running the project.
 
 > ℹ️ Since the includes and libraries are a folder above the project, we can copy/paste the example folder and make other projects as needed — without having to copy the imgui headers again.
+
+# References
+
+- [FAQ (Frequently Asked Questions)](https://github.com/ocornut/imgui/blob/master/docs/FAQ.md) (docs/FAQ.md)
+- [Homepage Readme](https://github.com/ocornut/imgui/blob/master/docs/README.md) (docs/README.md)
+- **[Demo](https://github.com/ocornut/imgui/blob/master/docs/README.md#demo)**
+- [Glossary](https://github.com/ocornut/imgui/wiki/Glossary)
+- [Software using dear imgui](https://github.com/ocornut/imgui/wiki/Software-using-dear-imgui)
+- [imgui + glfw tutorial](https://www.youtube.com/watch?v=VRwhNKoxUtk)
